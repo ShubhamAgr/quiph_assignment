@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f000"
+    android:orientation="vertical"
+    tools:context="com.example.bitjedi.quiph_assignment.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="359dp"
+        android:layout_height="91dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ff0000"
+        android:text="This is Quiph Assignment please allow Accessibiltiy service by Clicking the Below Button then Open the chrome browser and start browsing quiph website"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:text="Allow Accessibility Service"
+        android:onClick="onClickStartAccessibiltyService"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="190dp" />
+</LinearLayout>
